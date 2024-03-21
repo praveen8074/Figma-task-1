@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main-section {
+    width: 100%;
+}
+.container{
+padding: 80px 250px;
+width: 100%;
+height: 700px;
+background-image: url("./travel-concept-with-landmarks_23-2149153256\ 1.png");
+background-size: cover;   
+}
+.outdoor-info{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    width: 20%;
+    text-align: center;
+}
+.left h2{
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+}  
+
+.left h3{
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+
+}  
+
+.right {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.right a {
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+.right img {
+    width: 15px;
+}
+.right button a{
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+}
+.middle p{
+    font-size: 15px;
+    height: 40px;
+    font-family: "Inter", sans-serif;
+}
+.middle h1{
+    font-size:30px;
+    font-family: "Inter", sans-serif;
+}
+.middle button{
+    margin: 20px;
+    border-radius: 10px;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+button.learnmore-btn{
+    width: 100px;
+    height: 40px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.outdoor-info h2{
+    color: white;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+}
+.outdoor-info h3{
+    color:black ;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.right button{
+    background-color:#31803D;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+.learnmore-btn{
+    background-color:#31803D;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    font-family: "Inter", sans-serif;
+}
+.services{
+    padding: 80px 250px;
+    width: 100%;
+   
+    
+   
+}
+.services-hd{
+    text-align: center;
+    font-size: 20px;
+    margin: 80px;
+    
+    
+}
+
+.services-info{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+
+.serv-img {
+    display: flex;
+    align-items: stretch;
+    width:auto;
+    
+}
+.column {
+    width: 30%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.serv-img img {
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    
+}
+.column-info{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+    font-family: "Inter", sans-serif;
+}
+.column-info p{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+.learnmore-btn{
+    color:white;
+    font-family: "Inter", sans-serif;
+}
+
+
+h4{
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+.about{
+    padding:80px 250px ; 
+}
+.about-us{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+   
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.info-img img{
+    width: 100%;
+    height: 100%;
+}
+.info h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+}
+.info p{
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+}
+.location{
+    background-color:#F5F5F5;
+    padding: 80px 250px;
+}
+.location-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.loc-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    
+    width: 30%;
+
+}
+.loc-info h2{
+    font-size: 30px;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+.loc-info h3{
+    font-size: 20px;
+    padding: 10px;
+    font-family: "Inter", sans-serif;
+}
+.links{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    width: 15%;
+    padding: 10px;
+    gap: 20px;
+   
+}
+.links h6{
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    font-family: "Inter", sans-serif;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 15%;
+    padding: 10px;
+    gap: 20px;
+    
+}
+.cont h5{
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+}
+.map{
+    width: 35%;
+}
+.last{
+    text-align: center;
+    padding: 50px;
+    font-family: "Inter", sans-serif;
+}
